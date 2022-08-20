@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.scoreboard {
+    align-self: center;
+    background-color: #1B244A;
+    border-radius: 10px;
+    width: 575px;
+    height: 340px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana;
+    color: white;
+}
+
+#home-score,
+#guest-score {
+    align-self: center;
+    padding-top: 10px;
+}
+
+.home-container,
+.guest-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.blackScreen1,
+.blackScreen2 {
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    display: flex;
+    color: deeppink;
+    background-color: black;
+    justify-content: center;
+    height: 120px;
+    width: 155px;
+    border-radius: 8px;
+}
+
+.new-game {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 22px;
+}
+
+.new-game:hover {
+    background-color: #911449;
+}
+
+.new-game:active {
+    opacity: 0.8;
+}
+
+.plus-btn {
+    background: transparent;
+    border: none;
+    height: 40px;
+}
+
+img {
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+img:hover {
+    background-color: grey;
+    border-radius: 4px;
+}
+
+img:active {
+    opacity: 0.8;
+}
+
